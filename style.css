@@ -427,6 +427,7 @@ img {
         height: 50px;
         flex-direction: row;
         width: 117%;
+        position: sticky;
     }
 
     .home {
