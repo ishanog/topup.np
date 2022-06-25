@@ -7,6 +7,47 @@ html {
     scroll-behavior: smooth;
 }
 
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg, transparent, #009688);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+}
+
+.signup-box{
+    display: flex;
+    align-items: centre;
+    width: 100%;
+    max-width: 800px;
+}
+
+.col-1, .col-2{
+    flex-basis: 50%;
+}
+
+.col-1 img{
+    width: 100%;
+    display: block;
+}
+
+.col-2{
+    background: #fff;
+    padding: 40px 8%;
+    color: #333;
+    min-width: 600;
+}
+
+.com-2 h2{
+    font-weight: 600;
+}
+
+.col-2 span{
+    font-size: 12px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
