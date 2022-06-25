@@ -588,3 +588,88 @@ img {
 
 
 }
+
+@media (max-width:  276px) {
+    .nav-list {
+        flex-direction: row;
+    }
+
+    .navbar {
+        height: 50px;
+        flex-direction: row;
+    }
+
+    .home {
+        height: 165%;
+        width: 395%;
+    }
+
+    secondpart {
+        width: 66%;
+    }
+    
+    .home-box {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: 100%;
+
+    }
+
+    .about-us {
+        height: 117vh;
+        width: 395%;
+    }
+
+    .about-box {
+        flex-direction: row;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .faq {
+        height: 150%;
+        width: 395%;
+    }
+
+    .FAQ-box {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        margin: auto;
+        height: 95%;
+    }
+
+    .opening-hour {
+        height: 65vh;
+        width: 395%;
+    }
+
+    .time-box {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 100%;
+        margin: auto;
+        height: 90%;
+    }
+
+    img {
+        width: 360px;
+    }
+
+    .h-nav-resp {
+        height: 50px;
+        width: 395%;
+    }
+
+    .v-class-resp {
+        opacity: 5;
+        font-size: 20px;
+        align-items: center;
+    }
+
+    .section {
+        flex-direction: column-reverse;
+    }
+
+
+}
