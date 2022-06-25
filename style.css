@@ -48,6 +48,12 @@ html {
     font-size: 12px;
 }
 
+.col-2 span a {
+     text-decoration: none;
+     color: #ef005d;
+     font-weight: 500;
+}
+
 .navbar {
     display: flex;
     align-items: center;
