@@ -504,7 +504,7 @@ img {
 
 }
 
-@media (max-width: 322px) {
+@media (max-width:  450px) {
     .nav-list {
         flex-direction: row;
     }
@@ -516,7 +516,7 @@ img {
 
     .home {
         height: 165%;
-        width: 250%;
+        width: 255%;
     }
 
     secondpart {
@@ -530,6 +530,11 @@ img {
 
     }
 
+    .about-us {
+        height: 117vh;
+        width: 255%;
+    }
+
     .about-box {
         flex-direction: row;
         max-width: 100%;
@@ -538,6 +543,7 @@ img {
 
     .faq {
         height: 150%;
+        width: 255%;
     }
 
     .FAQ-box {
@@ -550,6 +556,7 @@ img {
 
     .opening-hour {
         height: 65vh;
+        width: 255%;
     }
 
     .time-box {
@@ -566,6 +573,7 @@ img {
 
     .h-nav-resp {
         height: 50px;
+        width: 255%;
     }
 
     .v-class-resp {
