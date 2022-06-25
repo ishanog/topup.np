@@ -70,6 +70,12 @@ html {
     margin-right: 10px;
 }
 
+.col-4 h4{
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
