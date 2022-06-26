@@ -1,14 +1,14 @@
 function doGet(e) {
-  var x = HtmlService.createTemplateFromFile("");
+  var x = HtmlService.createTemplateFromFile("login");
   var y = x.evaluate();
   var z = y.setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
   return z;
 }
 
 function checkLogin(username, password) {
-  var url = '';
+  var url = 'https://docs.google.com/spreadsheets/d/1itFmYPx7cdskxsAlY6bSRuX5eQkKlBi_i-sT49BLxuc/edit#gid=0';
   var ss= SpreadsheetApp.openByUrl(url);
-  var webAppSheet = ss.getSheetByName("");
+  var webAppSheet = ss.getSheetByName("DATA");
   var getLastRow =  webAppSheet.getLastRow();
   var found_record = '';
   for(var i = 1; i <= getLastRow; i++)
@@ -29,9 +29,9 @@ function checkLogin(username, password) {
 }
 
 function AddRecord(usernamee, passwordd, email, phone) {
-  var url = '';
+  var url = 'https://docs.google.com/spreadsheets/d/1itFmYPx7cdskxsAlY6bSRuX5eQkKlBi_i-sT49BLxuc/edit#gid=0';
   var ss= SpreadsheetApp.openByUrl(url);
-  var webAppSheet = ss.getSheetByName("");
+  var webAppSheet = ss.getSheetByName("DATA");
   webAppSheet.appendRow([usernamee,passwordd,email,phone]);
   
 }
