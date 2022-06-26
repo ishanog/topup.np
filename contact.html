@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>Contact form</title>
@@ -133,12 +134,18 @@
         <form action="https://formspree.io/f/xpzbejej" method="POST">
             <h1>Contact Us</h1>
             <div class="info">
-                <input class="name" type="text" name="name" placeholder="Full name">
-                <input type="text" name="name" placeholder="Email">
+                <input class="name" type="text" name="name" placeholder="Full name" required>
+                <input type="text" name="name" placeholder="Email" required>
                 <input type="text" name="name" placeholder="Phone number">
-                <input type="text" name="name" placeholder="Game's">
-                <input type="text" name="name" placeholder="Email of Game">
-                <input type="text" name="name" placeholder="Password of Game">
+                <label for="Games">Choose A Game:</label>
+                <input list="Games" placeholder="choose the game name">
+                <datalist id="Games">
+                  <option value="FREE FIRE">
+                  <option value="PUBG MOBILE">
+                  <option value="CLASH OF CLAN">
+                </datalist>
+                <input type="text" name="name" placeholder="Enter your game account email" required>
+                <input type="text" name="name" placeholder="Enter your game account password" required>
             </div>
             <p>Message</p>
             <div>
