@@ -137,23 +137,46 @@
                 <input class="name" type="text" name="name" placeholder="Full name" required>
                 <input type="text" name="name" placeholder="Email" required>
                 <input type="text" name="name" placeholder="Phone number">
-                <label for="Games">Choose A Game:</label>
-                <input list="Games" placeholder="choose the game name">
-                <datalist id="Games">
-                  <option value="FREE FIRE">
-                  <option value="PUBG MOBILE">
-                  <option value="CLASH OF CLAN">
-                </datalist>
-                <input type="text" name="name" placeholder="Enter your game account email" required>
-                <input type="text" name="name" placeholder="Enter your game account password" required>
             </div>
             <p>Message</p>
             <div>
                 <textarea rows="4"></textarea>
             </div>
-            <button type="submit" href="/">Submit</button>
+            <button type="submit" href="https://ishanog.github.io/topup.np/">Submit</button>
         </form>
     </div>
 </body>
+
+<footer><!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104881162279465");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v14.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    </footer>
 
 </html>
