@@ -44,7 +44,7 @@ html {
 }
 
 #preloader{
-    background: #000000 url(/img/5.png) no-repeat center center; 
+    background: #000000 url(5.png) no-repeat center center; 
     height: 100vh;
     background-size: 3%;  
     width: 100%;
