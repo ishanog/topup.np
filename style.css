@@ -159,6 +159,10 @@ img {
     font-size: 40px;
 }
 
+.about-us img{
+    width: 50px;
+}
+
 .faq {
     background: rgb(30, 32, 182) url('img/2416004.jpg');
     background-size: cover;
@@ -229,6 +233,19 @@ img {
 
 .Ans-1 {
     font-size: 35px;
+}
+
+.bttn {
+    background: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.bttn-sm {
+    padding: 3px 10px;
+    vertical-align: middle;
 }
 
 .opening-hour {
